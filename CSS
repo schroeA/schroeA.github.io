@@ -1,0 +1,152 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   text-align:center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+ background-color:#f0c7d7; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #d81e5b;
+  background-color: #ece9c0;
+  font-size:3.5em;
+  margin-top:1em;
+  margin-bottom:1em;
+  margin-left:3em;
+  margin-right:3em;
+padding:.5em;
+}
+
+h2{
+  font-size:2.5em;
+  margin-top:1em;
+  
+}
+
+h3{
+font-size:2.25em;
+  margin-top:1em;
+}
+h4{
+font-size:1.75em;
+  margin-top:.25em;
+  color: #d81e5b;
+  background-color:#ece9c0;
+  padding:.25em;
+}
+
+h5{
+  line-height:2;
+  font-size:1.15em;
+  color: #ffc2d6;
+  background-color:#a70c57;
+}
+h6{
+  font-size:1.5em;
+}
+
+p{
+  font-size:1.4em;
+  margin-bottom:2em;
+  margin-top:1em;
+  line-height:1.5;
+  margin-left:.75em;
+  margin-right:.75em;
+}
+/* STYLE IMAGES */
+img{
+  margin-left:1em;
+  margin-right:1em;
+  margin-bottom:2em;
+  border:5px solid #ece9c0;
+  
+}
+
+/* STYLE NAV BAR */
+.nav-list{
+  list-style-type:none;
+  padding:1em;
+  text-decoration:none;
+  color: #d81e5b;
+  font-size:1.5em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow:0px 0px 10px;
+  margin-right:8em;
+  margin-left:8em;
+}
+.nav-item{
+  align-items:center;
+  margin-right:2em;
+  margin-left:2em;
+}
+.nav-item:hover{
+  color: #861339;
+}
+
+li a{
+  text-decoration:none;
+  font-size:1em;
+}
+a {
+   color:#d81e5b;
+   background-color:;
+  text-decoration:underline;
+font-size:1em;  
+  
+}
+
+.Donating{
+  text-align:center;
+  margin-left:4em;
+  margin-right:4em;
+}
+
+.Protesting{
+  text-align:center;
+  margin-right:4em;
+  margin-left:4em;
+  margin-top:1em;
+}
+
+.Petitions{
+  text-align:center;
+  margin-right:4em;
+  margin-left:4em;
+  margin-top:1em;
+}
+
+#BIG{
+  font-size:1.75em;
+}
+
+.Voting{
+  text-align:center;
+  margin-right:4em;
+  margin-left:4em;
+  margin-top:1em;
+}
+
+/* STYLE BUTTONS */
+#button{
+ font-size:2em;
+   margin-top:2em;
+  margin-left: 8em;
+  margin-right:8em;
+  margin-bottom:3em;
+  background-color:#ff7ab4;
+  color: #f9e6e1;
+  border:5px solid #ece9c0;
+}
+#button:hover{
+  background-color:#da347c;
+  color: #eeafaf;
+}
+
+
+/* ADD MORE! */

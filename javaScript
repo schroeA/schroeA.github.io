@@ -1,0 +1,30 @@
+/* .js files add interaction to your website */
+
+var factList = [
+  "In a historic and far-reaching decision, the U.S. Supreme Court officially reversed Roe v. Wade on June 24, 2022, declaring that the constitutional right to abortion, upheld for nearly a half century, no longer exists.", //0//
+  " In 2020, there were 930,160 abortions in the U.S., an increase of 8 percent more abortions than in 2017. ", //1//
+  "Unsafe abortions can lead to complications, such as heavy bleeding, infection, death, damage to internal organs, or an incomplete abortion.", //2//
+  "When undertaken by a trained health-care provider in sanitary conditions, abortions are one of the safest medical procedures available, safer even than child birth.", //3//
+  "Preventing people from accessing an abortion does not mean they stop needing one. That’s why attempts to ban or restrict abortions do nothing to reduce the number of abortions, it only forces people to seek out unsafe abortions.",//4//
+  "It is not only cisgender women and girls (women and girls who were assigned female at birth) who may need access to abortion services, but also intersex people, transgender men and boys, and people with other gender identities who have the reproductive capacity to become pregnant.", //5//
+  "61% of all adults say that abortion should be legal throughout the entire US.", //6//
+  "Clarence Thomas, one of the Supreme Court Justices, said that the Supreme Court should reconsider gay rights, interracial marriage, and birth control after Roe V. Wade was overturned.",//7//
+];
+
+//declare variables you'll need//
+var fact = document.getElementById("fact");
+
+var button = document.getElementById("button");
+var count = 0;
+
+// event listener for click//
+button.addEventListener("click", displayFact);
+
+//create a function//
+function displayFact() {
+  fact.innerHTML = factList[count];
+  count++;
+  if(count == factList.length) {
+   count = 0; 
+  }
+}
